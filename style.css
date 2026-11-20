@@ -1,0 +1,54 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff;
+    color: #333;
+}
+
+/* Main Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #7b2cbf;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #7b2cbf;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #5a189a;
+    transform: translateY(-3px);
+}
